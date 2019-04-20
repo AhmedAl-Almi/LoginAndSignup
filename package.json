@@ -1,0 +1,32 @@
+{
+  "name": "loginandsignup",
+  "version": "1.0.0",
+  "description": "login and signup with node, express, handle parse and postgres database",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AhmedAl-Almi/LoginAndSignup.git"
+  },
+  "author": "Ahmed Elalmi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AhmedAl-Almi/LoginAndSignup/issues"
+  },
+  "homepage": "https://github.com/AhmedAl-Almi/LoginAndSignup#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "dotenv": "^7.0.0",
+    "express": "^4.16.4",
+    "hbs": "^4.0.4"
+  },
+  "devDependencies": {
+    "eslint": "^5.16.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.17.2",
+    "nodemon": "^1.18.11"
+  }
+}
