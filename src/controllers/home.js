@@ -1,5 +1,5 @@
 exports.get = ('/', (req, res) => {
-
-  res.send('hello app form index');
-
+  res.render('home', {
+    css: 'css/style.css',
+  });
 });
